@@ -1,0 +1,175 @@
+@import "vwstyle";
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: vw(90);
+    box-sizing: border-box;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    article {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        line-height: vw(90);
+        span{
+            color: #1a1a1a;
+            font-size: vw(30);
+            font-weight: bold;
+        }
+        i{
+            position: absolute;
+            right: vw(30);
+            color: #848994;
+        }
+    }
+}
+main {
+    flex: 1;
+    overflow: auto;
+    background: #ebebeb;
+    .section1_content{
+        margin-top: vw(20);
+        margin-bottom: vw(20);
+        height: vw(150);
+        background: #fff;
+        figure{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            figcaption{
+                width: vw(90);
+                height: vw(90);
+                border-radius: 50%;
+                overflow: hidden;
+                margin: 0 vw(30); 
+            }
+            article{
+                p{
+                    font-size: vw(30);
+                    color: #1a1a1a;
+                    font-weight: bold;
+                    i{
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-top: -4px;
+                        width: vw(32);
+                        height: vw(32);
+                        color: white;
+                        background: #f1403c;
+                        text-align: center;
+                        line-height: vw(32);
+                        border-radius: 50%;
+                        font-size: vw(20);
+                        margin-left: vw(10);
+                    }
+                }
+                span{
+                    display: inline-block;
+                    font-size: vw(28);
+                    width: vw(560);
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+    }
+    .section2_content{
+        background: #fff;
+        hgroup{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 vw(24);
+            height: vw(96);
+            box-sizing: border-box;
+            border-bottom: 1px solid #d3d3d3;
+            h4{
+                color: #999999;
+                font-size: vw(26);
+            }
+            h5{
+                color: #8590a6;
+                font-size: vw(26);
+                i{
+                    margin-left: vw(18);
+                }
+            }
+        }
+        figure{
+            display: flex;
+            &:last-child article{
+                border-bottom:0;
+            }
+            figcaption{
+                margin-left: vw(30);
+                margin-right: vw(20);
+                margin-top: vw(18);
+                img{
+                    width: vw(90);
+                    height: vw(90);
+                    border-radius: 50%;
+                }
+            }
+            article{
+                flex: 1;
+                margin-top: vw(24);
+                padding-left: vw(12);
+                padding-bottom: vw(24);
+                border-bottom: 1px solid #d3d3d3;
+                position: relative;
+                h5{
+                    font-size: vw(30);
+                    color: #808080;
+                }
+                h4{
+                    font-size: vw(30);
+                    color: #1a1a1a;
+                    padding: vw(16) 0;
+                }
+                p{
+                    font-size: vw(24);
+                    color: #bfbfbf;
+                }
+                span{
+                    color: #999999;
+                    font-size: vw(22);
+                }
+            }
+        }
+    }
+}
+footer {
+    height: vw(96);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #d3d3d3;
+    p {
+        a {
+
+            i {
+                font-size: vw(40) !important;
+            }
+
+            color:#999;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .active {
+            color: #0084ff;
+        }
+    }
+}

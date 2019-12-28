@@ -1,0 +1,100 @@
+{
+  "id": "1587244",
+  "name": "腾讯课堂",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "414667",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "1546590",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "1929093",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2528017",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "7084008",
+      "name": "提问",
+      "font_class": "tiwen",
+      "unicode": "e70b",
+      "unicode_decimal": 59147
+    },
+    {
+      "icon_id": "7142734",
+      "name": "大学",
+      "font_class": "daxue",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "7142744",
+      "name": "想法",
+      "font_class": "xiangfa",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "7424757",
+      "name": "加号",
+      "font_class": "hao",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "8623399",
+      "name": "星 (1)",
+      "font_class": "xing",
+      "unicode": "e7a4",
+      "unicode_decimal": 59300
+    },
+    {
+      "icon_id": "8747469",
+      "name": "双勾-01",
+      "font_class": "shuanggou-",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "9945716",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "10464645",
+      "name": "点赞",
+      "font_class": "diancai1-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "12105364",
+      "name": "我 的",
+      "font_class": "wode",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}
